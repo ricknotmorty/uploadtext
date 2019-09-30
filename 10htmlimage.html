@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建图片</title>
+    </head>
+<body>
+<img src="问问问.jpg">
+<a href="2htmljichu.html" target="_blank">
+    <img src="问问问.jpg" width="128px" alt="下载"><!--alt 设置图片的备用内容-->
+</a>
+<br><br><br>
+<img src="六个图标1.png" usemap="#map1">
+<form>                                  <!--用于探测坐标-->
+<input type="image" src="六个图标1.png"><!--用于探测坐标-->
+</form>                                 <!--用于探测坐标-->
+<map name="map1">
+    <area href="wodediannao.html" shape="rect" coords="21,36,132,178"><!--形状 方形 坐标区间 左上xy右下xy-->
+    <area href="QQ.html" shape="rect" coords="196,17,293,178">
+</map>
+<br><br><br>
+<img src="问问问.jpg" width="128px" usemap="#map2">
+<map name="map2">
+    <area href="2htmljichu.html" shape="circle" coords="64,64,64"><!--圆心坐标xy，半径-->
+</map>
+<a target="_blank" href="2htmljichu.html"> <!--对比组-->
+    <img src="问问问.jpg" width="128"></img>
+</a>
+</body>
+</html>
