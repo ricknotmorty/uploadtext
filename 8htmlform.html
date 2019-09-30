@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表单2</title>
+</head>
+<body>
+<form>
+    <input type="button" value="按钮">
+    <button>按钮</button><!--js进行合作并且作为绑定事件的-->
+    <input type="submit" value="提交"><!--提交表单-->
+    <br><br><br>
+    <input type="range"min="-100" max="500" step="100"><!--滑块--><!--step是每次滑动只能跳跃取值-->
+    <input type="range"min="-100" max="500" step="100" value="500"> <!--value指的是默认值是500-->
+    <input type="number" min="10" max="100" value="50"><!--手动输入数字-->
+    <input type="checkbox">选择
+    程序员中最好的？
+    <br>
+    <input type="radio"  name="a">星月 <!--单选用到的属性 在同一name中单选-->
+    <input type="radio"  name="a" checked>星月 <!--checked默认选中 提交表单时没有空值出现-->
+    <input type="radio"  name="a">星月
+    <br><br><br>
+    你最喜欢的水果是什么？
+    <select>
+        <option>香蕉</option>
+        <option>苹果</option>
+        <option>西瓜</option>
+    </select>
+    <br>
+    <input type="text" list="datalist1">
+    <datalist id="datalist1">    <!--可以选择也可输入-->
+        <option>香蕉</option>
+        <option>苹果</option>
+        <option>西瓜</option>
+    </datalist>
+</form>
+</body>
+</html>
