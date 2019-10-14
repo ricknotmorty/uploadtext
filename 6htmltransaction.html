@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建文本过渡</title>
+    <style type="text/css">
+        p{
+            width:100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        P:hover{
+            width:150px;
+            height: 150px;
+            background-color: #8e8d8e;
+            transition-delay: 0.15s;
+            transition-duration: 0.15s;
+           /* -webkit-transition-duration: ;!*给不同的浏览器准备*!
+            -o-transition-duration: ;*/
+            transition-property: width;/*变换项*/
+            transition-timing-function: ease; /*凡赛尔曲线 缓入缓出*/
+
+        }
+    </style>
+</head>
+<body>
+<p ></p>
+</body>
+</html>
